@@ -1,0 +1,140 @@
+{
+  "version": "1.0",
+  "lastSaved": "2026-09-14T08:34:45.199Z",
+  "complaints": [],
+  "adminAccounts": [
+    {
+      "adminId": "26UG030984",
+      "staffId": "26UG030984",
+      "username": "26ug030984",
+      "name": "University Administrator",
+      "email": "admin@paruluniversity.ac.in",
+      "role": "ADMIN",
+      "department": "Central Administration & Grievance Redressal",
+      "designation": "Chief Grievance Redressal Officer & Proctor",
+      "phone": "+91 98250 30984",
+      "password": "Admin@2026",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=250",
+      "permissions": [
+        "all",
+        "manage_complaints",
+        "assign_staff",
+        "resolve_complaints",
+        "system_audit",
+        "database_reset"
+      ]
+    }
+  ],
+  "students": [
+    {
+      "studentId": "STU-AMAN-2026",
+      "name": "Aman",
+      "enrollmentNo": "26UG576544",
+      "ugNumber": "26UG576544",
+      "email": "aman576544534@gmail.com",
+      "department": "Computer Science & Engineering (PIET)",
+      "phone": "+91 98765 54453",
+      "password": "Password@123",
+      "phoneVerified": true,
+      "emailVerified": true,
+      "createdAt": "2026-09-13T19:47:13.214Z",
+      "role": "STUDENT",
+      "isStatic": true,
+      "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=250",
+      "hostelBlock": "Block B",
+      "roomNo": "204"
+    },
+    {
+      "studentId": "STU-ALEX-2026",
+      "name": "Alex Patel",
+      "enrollmentNo": "26UG123456",
+      "ugNumber": "26UG123456",
+      "email": "alex.patel@gmail.com",
+      "department": "Computer Science & Engineering (PIET)",
+      "phone": "+91 98765 43210",
+      "password": "Password@123",
+      "phoneVerified": true,
+      "emailVerified": true,
+      "createdAt": "2026-09-13T19:47:13.214Z",
+      "role": "STUDENT",
+      "isStatic": true,
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=250",
+      "hostelBlock": "Block A",
+      "roomNo": "102"
+    },
+    {
+      "studentId": "STU-ROHAN-2026",
+      "name": "Rohan Sharma",
+      "enrollmentNo": "23CS12345",
+      "ugNumber": "23CS12345",
+      "email": "rohan.sharma23@paruluniversity.ac.in",
+      "department": "Computer Science & Engineering",
+      "phone": "+91 98765 43210",
+      "password": "Password@123",
+      "phoneVerified": true,
+      "emailVerified": true,
+      "createdAt": "2026-02-01T10:00:00.000Z",
+      "role": "STUDENT",
+      "isStatic": true,
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=250",
+      "hostelBlock": "Block B",
+      "roomNo": "302"
+    },
+    {
+      "studentId": "STU-PRIYA-2026",
+      "name": "Priya Verma",
+      "enrollmentNo": "24IT67890",
+      "ugNumber": "24IT67890",
+      "email": "priya.verma24@paruluniversity.ac.in",
+      "department": "Information Technology (PIET)",
+      "phone": "+91 98112 33445",
+      "password": "Password@123",
+      "phoneVerified": true,
+      "emailVerified": true,
+      "createdAt": "2026-02-10T11:00:00.000Z",
+      "role": "STUDENT",
+      "isStatic": true,
+      "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=250",
+      "hostelBlock": "Girls Hostel 1",
+      "roomNo": "405"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1789374885199-om5m",
+      "adminName": "University Administrator",
+      "adminEmail": "admin@paruluniversity.ac.in",
+      "action": "FAILED_LOGIN_ATTEMPT",
+      "details": "Failed admin login attempt (incorrect password) from IP 127.0.0.1",
+      "timestamp": "2026-09-14T08:34:45.199Z",
+      "ip": "127.0.0.1"
+    },
+    {
+      "id": "log-1789374882118-eysw",
+      "adminName": "University Administrator",
+      "adminEmail": "admin@paruluniversity.ac.in",
+      "action": "ADMIN_LOGIN",
+      "details": "Administrator University Administrator (Chief Grievance Redressal Officer & Proctor) authenticated to backend console.",
+      "timestamp": "2026-09-14T08:34:42.118Z",
+      "ip": "127.0.0.1"
+    },
+    {
+      "id": "log-1789374877245-j47r",
+      "adminName": "University Administrator",
+      "adminEmail": "admin@paruluniversity.ac.in",
+      "action": "ADMIN_LOGIN",
+      "details": "Administrator University Administrator (Chief Grievance Redressal Officer & Proctor) authenticated to backend console.",
+      "timestamp": "2026-09-14T08:34:37.245Z",
+      "ip": "127.0.0.1"
+    },
+    {
+      "id": "audit-1789328833214",
+      "adminName": "System Security Kernel",
+      "adminEmail": "security@paruluniversity.ac.in",
+      "action": "SYSTEM_FRESH_CLEAN",
+      "details": "All complaints and test logs cleaned. System refreshed to pristine fresh state.",
+      "timestamp": "2026-09-13T19:47:13.214Z",
+      "ip": "127.0.0.1"
+    }
+  ]
+}

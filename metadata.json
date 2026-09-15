@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix Remix Parul University Complaint App",
+  "description": "Comprehensive student complaint management and campus issue tracking dashboard for Parul University.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
