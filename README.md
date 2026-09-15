@@ -1,157 +1,128 @@
-Bilkul bhai. Ye complete clean README.md hai — direct copy-paste kar. 👇
+Haan bhai 😭 ek hi code block mein pura README de raha hoon. Bas poora box copy → GitHub README.md mein paste → Commit. Kuch alag-alag copy nahi karna.
 
 # 🎓 Parul Voice — University Complaint Management System
-<p align="center">
-  <strong>A centralized digital grievance redressal platform for students and university administration.</strong>
-</p>
-<p align="center">
-  <a href="https://remix-remix-remix-remix-remix-parul-university-co-6220.ai.studio/">
-    🌐 Live Demo
-  </a>
-  •
-  <a href="https://github.com/ManishxNishad/parul-university-complaint-app/releases/tag/v1.0.0">
-    📱 Download APK
-  </a>
-</p>
+> A centralized digital grievance redressal platform for students and university administration.
+[![TypeScript](https://img.shields.io/badge/TypeScript-99.2%25-blue)](https://www.typescriptlang.org/)
+[![Status](https://img.shields.io/badge/Status-Active-success)](https://github.com/ManishxNishad/parul-university-complaint-app)
+[![Release](https://img.shields.io/badge/Release-v1.0.0-orange)](https://github.com/ManishxNishad/parul-university-complaint-app/releases/tag/v1.0.0)
 ---
-## 📌 About the Project
-**Parul Voice** is a web-based university grievance management system designed to make complaint reporting, tracking, resolution, and administration more structured and transparent.
-Instead of relying on manual communication or scattered complaint channels, the platform provides a centralized workflow connecting students with university staff.
-### 🎯 Problem
-Students often face difficulties when reporting issues related to:
+## 🌐 Live Demo
+**Live Application:**  
+https://remix-remix-remix-remix-remix-parul-university-co-6220.ai.studio/
+**GitHub Repository:**  
+https://github.com/ManishxNishad/parul-university-complaint-app
+**Android APK:**  
+https://github.com/ManishxNishad/parul-university-complaint-app/releases/tag/v1.0.0
+---
+## 📌 About
+**Parul Voice** is a web-based university grievance management system designed to simplify the process of reporting, tracking, managing, and resolving student complaints.
+The platform connects students and university administration through a structured digital workflow instead of relying on manual communication or scattered complaint channels.
+The system focuses on:
+- Transparency
+- Complaint tracking
+- Faster grievance handling
+- Structured administration
+- Evidence-based resolution
+- Centralized grievance records
+---
+## 🎯 Problem Statement
+Students can face problems related to:
 - Hostel & accommodation
-- Academic matters
+- Academic issues
+- Classrooms
 - Campus facilities
 - Maintenance
-- Security & safety
+- Electricity
+- Security
 - Transportation
 - Cafeteria & mess
 - Harassment
 - Events
 - Other university services
-The status of complaints can also be difficult to track through traditional communication channels.
-### 💡 Solution
-Parul Voice provides a structured digital system where students can:
-1. Create an account
-2. Submit a complaint
-3. Add complaint details and location
-4. Attach supporting evidence
-5. Track complaint progress
-6. Receive status updates
-7. View resolution details
-University staff can then review, assign, investigate, update, resolve, and analyze complaints through an administrative portal.
----
-## ✨ Key Features
-### 👨‍🎓 Student Portal
-- 🔐 Student registration & authentication
-- 🪪 Digital student profile
-- 📋 Submit complaints
-- 🏷️ Multiple complaint categories
-- 📍 Location / venue information
-- ⚡ Complaint priority
-- 📷 Evidence / photo attachments
-- 🔎 Complaint tracking
-- 📊 Complaint progress timeline
-- 🔔 Notifications
-- 📝 Complaint history
-- 🚨 Emergency helpline access
-- 🎨 Custom themes & appearance settings
----
-### 🏢 Staff Administration Portal
-- 📊 Administrative dashboard
-- 📥 New complaint management
-- 👤 Assign complaints to staff
-- 🔄 Update complaint status
-- 🔍 Search complaints
-- 🏷️ Filter by status and priority
-- 🛠️ Add resolution steps
-- 📷 Upload resolution proof
-- 📄 Generate completion information
-- 📈 Grievance analytics
-- 📑 Student account registry
-- 📊 Excel student registry
-- 👤 Staff profile management
----
-## 🔄 Complaint Workflow
+Traditional complaint systems can make it difficult for students to know:
+- Whether their complaint was received
+- Who is handling it
+- What action has been taken
+- Whether the issue is resolved
+- What the final resolution was
+### 💡 Our Solution
+Parul Voice provides an end-to-end digital grievance workflow.
 ```text
 Student
-   │
-   ▼
-Create Account
-   │
-   ▼
-Verify Credentials
-   │
-   ▼
-Submit Complaint
-   │
-   ▼
+   ↓
+Register / Sign In
+   ↓
+Raise Complaint
+   ↓
 Complaint ID Generated
-   │
-   ▼
+   ↓
 Staff Review
-   │
-   ▼
+   ↓
 Accepted
-   │
-   ▼
+   ↓
 In Progress
-   │
-   ▼
-Resolution Steps + Proof
-   │
-   ▼
+   ↓
+Resolution Steps
+   ↓
+Proof / Evidence
+   ↓
 Resolved
 
 ⸻
 
-📊 Complaint Status
+✨ Key Features
 
-Status	Description
-🟡 Submitted	Complaint successfully submitted
-🔵 Accepted	Complaint reviewed and accepted
-🔵 In Progress	Staff is actively working on the issue
-🟢 Resolved	Complaint has been successfully resolved
-🔴 Escalated	Complaint requires higher-level intervention
-🟣 Reopened	Previously resolved complaint has been reopened
+👨‍🎓 Student Portal
 
-⸻
-
-🗂️ Complaint Categories
-
-The system supports multiple categories including:
-
-* 🏫 Campus Problems
-* 👨‍🏫 Staff & Academic Problems
-* 🎪 Events
-* 🛡️ Harassment
-* 🏠 Hostel & Accommodation
-* 📚 Academic & Classroom
-* 🍽️ Cafeteria & Mess
-* 📖 Library Services
-* 🚌 Transport & Bus
-* 🔧 Maintenance & Electricity
-* 🛡️ Security & Safety
-* ⋯ Others
+* 🔐 Student registration
+* 🔑 Secure student sign-in
+* 📱 Mobile verification workflow
+* 📧 Institutional email verification
+* 👤 Student profile
+* 📋 Raise a complaint
+* 🏷️ Complaint categories
+* 📍 Location / venue details
+* ⚡ Complaint priority
+* 📷 Evidence and photo upload
+* 🔎 Search complaints
+* 📊 Complaint tracking
+* 🕒 Complaint timeline
+* 🔔 Notifications
+* 📝 Complaint history
+* 🚨 Emergency helplines
+* 🎨 Theme & appearance settings
+* 🔑 Password management
 
 ⸻
 
-🚨 Emergency Support
+🏢 Staff / Administration Portal
 
-The student portal provides quick access to emergency contacts for situations requiring immediate assistance.
+The administration portal allows university staff to manage the complete grievance lifecycle.
 
-Examples include:
+Features
 
-* Campus Security
-* Medical / Ambulance Support
-* Women’s Safety & Anti-Harassment
-* Hostel Emergency Support
+* 📊 Administrative dashboard
+* 📥 New complaints
+* 👤 Assigned complaints
+* 🔄 Complaint status management
+* 🔍 Search complaints
+* 🏷️ Filter by status
+* ⚡ Filter by priority
+* 🛠️ Resolution steps
+* 📷 Upload resolution proof
+* 📄 Completion report
+* 📈 Grievance analytics
+* 📊 Complaint statistics
+* 📑 Student registry
+* 📥 Excel student registry
+* 👤 Staff profile
+* 🚨 Escalation workflow
 
 ⸻
 
-📈 Administrative Analytics
+📊 Analytics Dashboard
 
-The administration dashboard provides an overview of grievance activity.
+The administration analytics dashboard provides an overview of grievance activity.
 
 Metrics
 
@@ -166,33 +137,178 @@ Metrics
 * Complaints by status
 * Priority distribution
 
+Example:
+
+Total Complaints      1
+Pending / Review      1
+In Progress           0
+Resolved              0
+Escalated             0
+
+⸻
+
+🔄 Complaint Status System
+
+Status	Description
+🟡 Submitted	Complaint has been successfully submitted
+🔵 Accepted	Complaint has been reviewed and accepted
+🔵 In Progress	Staff is actively working on the complaint
+🟢 Resolved	Complaint has been resolved
+🔴 Escalated	Complaint requires higher-level intervention
+🟣 Reopened	Previously resolved complaint has been reopened
+
+⸻
+
+🗂️ Complaint Categories
+
+The system supports multiple university complaint categories.
+
+Campus
+
+* 🏫 Campus Problem
+* 🔧 Maintenance & Electricity
+* 🛡️ Security & Safety
+
+Academic
+
+* 👨‍🏫 Staff & Academic Problem
+* 📚 Academic & Classroom
+
+Student Services
+
+* 🏠 Hostel & Accommodation
+* 🍽️ Cafeteria & Mess
+* 📖 Library Services
+* 🚌 Transport & Bus
+
+Other
+
+* 🎪 Events Problem
+* 🛡️ Harassment
+* ⋯ Others
+
+⸻
+
+🚨 Emergency Helplines
+
+Students can quickly access emergency support from the portal.
+
+The emergency section can provide contacts for:
+
+* 🛡️ Campus Security
+* 🚑 Hospital / Ambulance
+* 👩 Women’s Safety & Anti-Harassment
+* 🏠 Hostel Chief Warden
+
+The interface is designed for quick access during urgent situations.
+
+⸻
+
+🧑‍💻 Student Registration
+
+The student registration system includes:
+
+Full Student Name
+        ↓
+UG Enrollment Number
+        ↓
+Department / Faculty
+        ↓
+Mobile Number
+        ↓
+WhatsApp / SMS OTP
+        ↓
+University Email
+        ↓
+Institutional Email OTP
+        ↓
+Master Password
+        ↓
+Official Student Registration
+
+Student credentials are associated with their university enrollment information.
+
+⸻
+
+🔐 Authentication
+
+The application provides separate authentication workflows.
+
+Student
+
+UG Number / Official Email
+            +
+       Master Password
+
+Administration
+
+Admin ID / Official Email
+            +
+     Admin Secret Password
+
+Administrative access is separated from the student portal.
+
+⸻
+
+🛠️ Resolution Management
+
+Staff members can document the actual steps taken to resolve a complaint.
+
+Example:
+
+Complaint
+   ↓
+Initial On-Site Assessment
+   ↓
+Diagnosis
+   ↓
+Repair / Replacement
+   ↓
+Testing
+   ↓
+Resolution Proof
+   ↓
+Complaint Resolved
+
+Each resolution step can contain:
+
+* Action taken
+* Findings
+* Staff member
+* Duration / time spent
+* Timestamp
+* Materials / equipment used
+* Supporting proof
+
 ⸻
 
 📱 Android Application
 
-Parul Voice also includes an Android APK for mobile access.
+Parul Voice also includes an Android application release.
 
-APK
-
-Download the latest Android release:
-
-👉 ⁠Download Parul Voice APK
-
-Current release:
+Latest Release
 
 Parul Voice v1.0.0
 
-⸻
+APK
 
-🌐 Live Demo
+Download the Android application from the GitHub Releases page:
 
-Try the deployed web application:
-
-👉 ⁠Open Parul Voice
+https://github.com/ManishxNishad/parul-university-complaint-app/releases/tag/v1.0.0
 
 ⸻
 
-🛠️ Tech Stack
+🌐 Web Application
+
+The web application is available through the deployed demo.
+
+Open Application
+
+https://remix-remix-remix-remix-remix-parul-university-co-6220.ai.studio/
+
+⸻
+
+🛠️ Technology Stack
 
 Frontend
 
@@ -205,21 +321,23 @@ Frontend
 Backend
 
 * Node.js
-* REST API
 * TypeScript
+* REST API
 
-Data & Storage
+Data
 
-* Local application data
+* Application data storage
 * Excel-based student registry
 * .xlsx student account management
 
-Development
+Development Tools
 
 * Google AI Studio
-* GitHub
 * Git
-* npm / Bun
+* GitHub
+* npm
+* Bun
+* VS Code
 
 ⸻
 
@@ -253,18 +371,16 @@ parul-university-complaint-app/
 
 Prerequisites
 
-Make sure you have:
+Make sure the following are installed:
 
 * Node.js
 * npm
-
-installed on your system.
 
 1. Clone the repository
 
 git clone https://github.com/ManishxNishad/parul-university-complaint-app.git
 
-2. Enter the project directory
+2. Open the project
 
 cd parul-university-complaint-app
 
@@ -274,38 +390,44 @@ npm install
 
 4. Configure environment variables
 
-Create a .env.local file and add your required environment variables.
+Create a .env.local file.
 
 Example:
 
 GEMINI_API_KEY=your_api_key_here
 
-5. Start the development server
+5. Start development server
 
 npm run dev
 
 ⸻
 
-🔐 Security
+🔐 Environment Variables
 
-Sensitive credentials and API keys should never be committed to the repository.
+Do not commit sensitive credentials to GitHub.
 
-Use environment variables for secrets:
+Use:
 
 .env.local
 
-The repository includes:
+The project provides:
 
 .env.example
 .gitignore
 
-Never upload real API keys, passwords, or private credentials to GitHub.
+Never upload:
+
+* API keys
+* Passwords
+* Private tokens
+* Secret credentials
 
 ⸻
 
 🧪 Example Complaint
 
-Complaint ID: #PUC20260912
+Complaint ID:
+#PUC20260912
 Category:
 Hostel & Accommodation
 Issue:
@@ -315,69 +437,105 @@ Hostel 2, Room 305
 Priority:
 Medium
 Status:
-Submitted → Accepted → In Progress → Resolved
+Submitted
+
+⸻
+
+📈 Example Administrative View
+
+The staff dashboard provides:
+
+Total Complaints        1
+New                     1
+Pending                 1
+In Progress             0
+Resolved                0
+Escalated               0
+
+Staff can then review the complaint and move it through the resolution workflow.
+
+⸻
+
+📸 Screenshots
+
+Student Registration
+
+Add screenshot here.
+
+Student Dashboard
+
+Add screenshot here.
+
+Raise Complaint
+
+Add screenshot here.
+
+Complaint Tracking
+
+Add screenshot here.
+
+Emergency Helplines
+
+Add screenshot here.
+
+Staff Dashboard
+
+Add screenshot here.
+
+Analytics Dashboard
+
+Add screenshot here.
+
+Student Excel Registry
+
+Add screenshot here.
 
 ⸻
 
 🏆 Project Highlights
 
 * 🎓 University-focused grievance platform
-* 📱 Web + Android support
-* 🔐 Student authentication workflow
-* 📊 Administrative analytics
-* 🔄 End-to-end complaint tracking
+* 🌐 Web application
+* 📱 Android application
+* 🔐 Student authentication
+* 🏢 Separate staff administration portal
+* 📋 Structured complaint workflow
+* 📊 Real-time-style dashboard
+* 📈 Administrative analytics
 * 📷 Evidence upload
-* 🛠️ Resolution workflow
-* 📈 Complaint monitoring
+* 🛠️ Resolution management
 * 📑 Excel student registry
-* 🚨 Emergency support system
-* 🎨 Modern responsive UI
+* 🚨 Emergency support
+* 🔎 Complaint search and filtering
+* 🎨 Customizable themes
+* 📱 Responsive interface
 
 ⸻
 
-👥 Team
+👥 Project Team
 
-Project Team
+Team Members
 
 * Manish Dinanath Nishad
 * Prince Katariya
 * Deeki Chuden
 * Harsh Vardhan
 
-Built as a university technology project.
+⸻
+
+🎓 Academic Project
+
+This project was developed as a university technology project to demonstrate how a centralized digital grievance management system can improve complaint reporting, tracking, administration, and resolution workflows.
 
 ⸻
 
-📸 Screenshots
-
-Student Portal
-
-Add screenshots of the student dashboard here.
-
-Complaint Submission
-
-Add screenshot of the complaint submission page here.
-
-Complaint Tracking
-
-Add screenshot of complaint tracking here.
-
-Staff Dashboard
-
-Add screenshot of the administrative dashboard here.
-
-Analytics
-
-Add screenshot of the analytics dashboard here.
-
-⸻
-
-🔗 Links
+🔗 Important Links
 
 Resource	Link
-🌐 Live Demo	⁠Open Application
-💻 GitHub Repository	⁠View Repository
-📱 Android APK	⁠Download APK
+🌐 Live Demo	https://remix-remix-remix-remix-remix-parul-university-co-6220.ai.studio/
+💻 GitHub	https://github.com/ManishxNishad/parul-university-complaint-app
+📱 Android APK	https://github.com/ManishxNishad/parul-university-complaint-app/releases/tag/v1.0.0
+📦 Releases	https://github.com/ManishxNishad/parul-university-complaint-app/releases
 
 ⸻
 
@@ -388,10 +546,13 @@ This project was created as an academic technology project.
 ⸻
 
 <p align="center">
-  <strong>🎓 Parul Voice</strong>
-  <br>
-  Digital Grievance Redressal System
-  <br><br>
-  Built with ❤️ for a better campus experience.
+
+🎓 Parul Voice
+
+Digital Grievance Redressal System
+
+Report • Track • Resolve • Improve
+
 </p>
 ```
+
