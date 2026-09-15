@@ -1,77 +1,57 @@
-🎓 Parul Voice — University Complaint Management System
-
-A centralized digital grievance redressal platform designed to make student complaints easier to report, track, manage, and resolve.
-
-⸻
-
-🌐 Live Demo
-
-Live Application:
+# 🎓 Parul Voice — University Complaint Management System
+> A centralized digital grievance redressal platform designed to make student complaints easier to report, track, manage, and resolve.
+---
+## 🌐 Live Demo
+**Live Application:**  
 https://remix-remix-remix-remix-remix-parul-university-co-6220.ai.studio/
-
-GitHub Repository:
+**GitHub Repository:**  
 https://github.com/ManishxNishad/parul-university-complaint-app
-
-Android APK:
+**Android APK:**  
 https://github.com/ManishxNishad/parul-university-complaint-app/releases/tag/v1.0.0
-
-⸻
-
-📌 About the Project
-
-Parul Voice is a web-based university grievance management system built to provide students with a structured way to raise complaints and track their progress.
-
+---
+## 📌 About the Project
+**Parul Voice** is a web-based university grievance management system built to provide students with a structured way to raise complaints and track their progress.
 Instead of depending on scattered communication channels, the platform provides a centralized workflow where complaints can be submitted, monitored, managed, and resolved.
-
-🎯 Main Goals
-
-* Transparency in complaint handling
-* Easier complaint tracking
-* Faster grievance management
-* Structured complaint resolution
-* Centralized grievance records
-
-⸻
-
-🚀 Key Features
-
-👨‍🎓 Student Features
-
-* Student registration and sign-in
-* Student profile management
-* Raise new complaints
-* Complaint categories
-* Complaint location/details
-* Priority selection
-* Evidence/photo attachment
-* Complaint tracking
-* Complaint status timeline
-* Complaint history
-* Notifications
-* Emergency helplines
-* Theme customization
-* Multiple UI themes
-
-🛠️ Staff / Admin Features
-
-* Administrative dashboard
-* Complaint overview
-* New and assigned complaints
-* Complaint search and filtering
-* Complaint status management
-* Complaint resolution workflow
-* Resolution steps
-* Resolution proof
-* Complaint analytics
-* Student registry
-* Student Excel registry
-* Admin profile management
-* Complaint escalation workflow
-
-⸻
-
-🔄 Complaint Workflow
-
+### 🎯 Main Goals
+- Transparency in complaint handling
+- Easier complaint tracking
+- Faster grievance management
+- Structured complaint resolution
+- Centralized grievance records
+---
+## 🚀 Key Features
+### 👨‍🎓 Student Features
+- Student registration and sign-in
+- Student profile management
+- Raise new complaints
+- Complaint categories
+- Complaint location/details
+- Priority selection
+- Evidence/photo attachment
+- Complaint tracking
+- Complaint status timeline
+- Complaint history
+- Notifications
+- Emergency helplines
+- Theme customization
+- Multiple UI themes
+### 🛠️ Staff / Admin Features
+- Administrative dashboard
+- Complaint overview
+- New and assigned complaints
+- Complaint search and filtering
+- Complaint status management
+- Complaint resolution workflow
+- Resolution steps
+- Resolution proof
+- Complaint analytics
+- Student registry
+- Student Excel registry
+- Admin profile management
+- Complaint escalation workflow
+---
+## 🔄 Complaint Workflow
+```text
 Student
    ↓
 Raise Complaint
@@ -149,8 +129,7 @@ An Android APK build is available through the GitHub Releases section.
 
 Download
 
-👉 v1.0.0 Release:
-https://github.com/ManishxNishad/parul-university-complaint-app/releases/tag/v1.0.0
+👉 ⁠v1.0.0 Release
 
 Download the app-release.apk file from the release assets.
 
